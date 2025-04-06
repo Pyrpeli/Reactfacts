@@ -9,6 +9,40 @@ h1 {
     margin-top: 30px;
 }
 
-.topnav {
-    list-style: none;
+
+.header {
+ display: flex;
+ align-items: center;  
+ justify-content: space-between;
+ margin-right: 10%;
 }
+
+.logo {
+    width: 55px;
+}
+
+.topnav {
+    display: flex;
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.topnav li {
+    margin-left: 8%;
+    margin-right: 5%;
+
+}
+
+footer {
+    height: 3%;
+    text-align:justify;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 8px 20px;
+    width: 100%;
+    background-color: #61DBFB;
+    color:rgb(2, 5, 9)
+}
+
+

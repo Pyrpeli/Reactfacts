@@ -3,9 +3,9 @@ const root = createRoot(document.getElementById("root"))
 
 
 const Header = () => ( 
-    <header>
+    <header className="header">
+        <img className="logo" src="react-logo.png" alt="React logo cyan nucleus" />
         <nav>
-        <img src="react-logo.png" width="40px" alt="React logo" />
             <ul className="topnav">         
                 <li>Pricing</li>
                 <li>About </li>
