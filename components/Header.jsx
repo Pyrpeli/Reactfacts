@@ -7,9 +7,8 @@ export const Header = () => (
             </span>
         <nav>
             <ul>         
-                <li>Portfolio</li>
-                <li>About </li>
-                <li>Contact</li>
+                <li> <a href="https://snowcando.org">Portfolio</a></li>
+                <li> <a href="https://github.com/Pyrpeli">Beginner Github</a></li>
             </ul>  
         </nav>
         </div>
